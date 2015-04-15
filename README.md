@@ -1,5 +1,7 @@
 # Scala Practice
 
+This repository is for practicing scala.
+
 ## Install on Mac OS X
 
 ```
