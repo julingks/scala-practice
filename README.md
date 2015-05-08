@@ -4,6 +4,7 @@ This repository is for practicing scala.
 
 ## Get Started
 * [http://docs.scala-lang.org/ko/tutorials/scala-for-java-programmers.html](http://docs.scala-lang.org/ko/tutorials/scala-for-java-programmers.html)
+* [http://twitter.github.io/scala_school/ko/](http://twitter.github.io/scala_school/ko/)
 
 ## Install on Mac OS X
 
@@ -30,6 +31,7 @@ and then run
 ## Hello World
 
 HelloWorld.scala
+
 ```
 object HelloWorld {
     def main(args: Array[String]) {
@@ -39,11 +41,14 @@ object HelloWorld {
 ```
 
 Compile
+
 ```
 scalac HelloWlrd.scala
 ```
 
 Execute
+
+```
 $ scala -classpath . HelloWorld
 Hello, world!
 ```
