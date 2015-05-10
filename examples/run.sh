@@ -7,7 +7,7 @@ then
     exit 1
 fi
 
-scalac $1.scala
-scala -classpath . $1
+scalac -deprecation $1.scala 
+scala -classpath . $1 
 
 rm *.class

@@ -5,6 +5,8 @@
 * [OncePerSecond](OncePerSecond.scala)
 * [OncePerSecondAnonymous](OncePerSecondAnonymous.scala)
 * [ExpressionEvaluation](ExpressionEvaluation.scala)
+* [QuickSort](QuickSort.scala)
+* [Date](Date.scala)
 
 ## Run
 

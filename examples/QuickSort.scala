@@ -1,4 +1,4 @@
-class Test {
+class QuickSort {
   def sort(xs: Array[Int]) {
     def swap(i: Int, j :Int) {
       val t = xs(i); xs(i) = xs(j); xs(j) = t
