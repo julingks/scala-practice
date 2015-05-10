@@ -53,7 +53,7 @@ $ scala -classpath . HelloWorld
 Hello, world!
 ```
 
-* [hellworld](/helloworld)
+* [helloworld](/helloworld)
 
 ## Examples
 * [examples](/examples)
