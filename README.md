@@ -58,6 +58,12 @@ Hello, world!
 ## Examples
 * [examples](/examples)
 
+## Scala Langauge Specification
+* [http://www.scala-lang.org/files/archive/spec/2.11/](http://www.scala-lang.org/files/archive/spec/2.11/)
+
+## Tutorial
+* [http://docs.scala-lang.org/tutorials/](http://docs.scala-lang.org/tutorials/)
+
 ## Book
 * [ScalaByExample.pdf](book/ScalaByExample.pdf)
 
