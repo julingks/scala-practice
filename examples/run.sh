@@ -1,13 +1,21 @@
 #!/usr/bin/env bash
 set -e
 
-if [ $# -ge 2 ] || [ $# -eq 0 ]
+if [ $# -ne 1 ]
 then
     echo "usage: .run.sh [scala]"
     exit 1
 fi
 
-scalac -deprecation $1.scala 
-scala -classpath . $1 
+FILENAME="${1%%.*}"
+EXT="${1##*.}"
+
+if [ $EXT != "scala" ]; then
+    echo ".scala file only!"
+    exit 1
+fi
+
+scalac -deprecation $1
+scala -classpath . $FILENAME
 
 rm *.class
